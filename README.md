@@ -6,16 +6,18 @@ Maji Ndogo faced a significant water crisis. Despite having numerous water sourc
 
 
 # 1. Initial Database Exploration
-I began by connecting to the md_water_services database. I then listed all available tables in the database to get an overview of its structure.
+I began by connecting to the md_water_services database.then listed all available tables in the database to get an overview of its structure.
 
 I found the following tables: data_dictionary, employee, global_water_access, location, visits, water_quality, water_source, and well_pollution.
 
 # Exploring Key Tables
 I explored some of the key tables to understand their content:
 
-### location table: I queried the location table and observed that it detailed specific geographical data, including address, province_name, town_name, and location_type (Urban/Rural). Each location had a unique location_id.
+ - location table:
+ I queried the location table and observed that it detailed specific geographical data, including address, province_name, town_name, and location_type (Urban/Rural). Each location had a unique location_id.
 
-### visits table: I examined the visits table and saw that it recorded individual visits. Each record included an assigned_employee_id, location_id, source_id, time_of_record, visit_count, and time_in_queue. This table was crucial for understanding surveyor activities and user wait times.
+- visits table: 
+I examined the visits table and saw that it recorded individual visits. Each record included an assigned_employee_id, location_id, source_id, time_of_record, visit_count, and time_in_queue. This table was crucial for understanding surveyor activities and user wait times.
 
 # 2. Water Source Analysis
 I delved into understanding the different types of water sources recorded in the database.
