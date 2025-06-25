@@ -1,6 +1,10 @@
 # Maji Ndogo Data Analysis - Phase 1
 This document outlines the initial steps I took to explore and analyze the Maji Ndogo water services database. My primary goal was to familiarize myself with the extensive dataset of 60,000 records, understand its structure, identify key data points, and uncover any inconsistencies.
 
+# Problem Statement
+Maji Ndogo faced a significant water crisis. Despite having numerous water sources, a substantial portion of the population lacked reliable access to clean and safe water. This crisis impacted public health, economic productivity, and overall community well-being. My analysis aimed to leverage the collected water-related data to identify the root causes of these water access and quality issues, and to propose data-driven solutions to improve the water infrastructure and supply for the citizens of Maji Ndogo. I focused on understanding the types of water sources, the factors affecting their accessibility (like queue times), and the quality of the water, particularly identifying and correcting data integrity issues related to contamination.
+
+
 # 1. Initial Database Exploration
 I began by connecting to the md_water_services database. I then listed all available tables in the database to get an overview of its structure.
 
