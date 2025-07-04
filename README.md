@@ -1,4 +1,4 @@
-# Solving Maji ndigi's water crisis using MySQL (phase_one)
+# Solving Maji ndigo's water crisis using MySQL (phase_one)
 This document outlines the initial steps I took to explore and analyze the Maji Ndogo water services database. My primary goal was to familiarize myself with the extensive dataset of 60,000 records, understand its structure, identify key data points, and uncover any inconsistencies.
 
 # Problem Statement
